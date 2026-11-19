@@ -4,6 +4,8 @@ from drafter import *
 from chempy import Substance
 from bakery import assert_equal
 
+set_website_style("almond")
+
 
 @dataclass
 class Chemical:
